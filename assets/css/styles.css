@@ -7,13 +7,13 @@ body, h1, h2, p, ul, li {
 
 body {
   font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
+  line-height: 1.7;
+  background-color: #ecf0f1;
+  color: #2c3e50;
 }
 
 .site-header, .site-footer {
-  background-color: #333;
+  background-color: #3498db;
   color: #f9f9f9;
   text-align: center;
   padding: 1.5em 0;
@@ -27,11 +27,8 @@ body {
   gap: 20px;
 }
 
-.nav-item {
-}
-
 .nav-link {
-  color: #333;
+  color: #2c3e50;
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 5px;
@@ -39,44 +36,58 @@ body {
 }
 
 .nav-link:hover, .nav-link:focus {
-  background-color: #333;
+  background-color: #e74c3c;
   color: #f9f9f9;
 }
 
 .content-section {
-  padding: 40px 20px;
+  padding: 50px 25px;
   max-width: 800px;
   margin: auto;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .form-container {
-  border: 1px solid #ddd;
+  border: 1px solid #2c3e50;
   padding: 20px;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
 .form-label, .form-input {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .form-input {
   width: 100%;
   box-sizing: border-box;
-  max-width: 400px; 
+  max-width: 400px;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #ddd;
+  border: 1px solid #2c3e50;
+}
+
+input[type="submit"] {
+  background-color: #e74c3c;
+  color: #f9f9f9;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #3498db;
 }
 
 /* Responsive design adjustments */
 @media (max-width: 768px) {
   .nav-list {
-    flex-direction: column;
-    gap: 10px;
+      flex-direction: column;
+      gap: 10px;
   }
 }
