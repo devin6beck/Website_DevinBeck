@@ -1,0 +1,70 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header, .site-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.content-section {
+  padding: 20px;
+}
+
+.form-container {
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 5px; 
+}
+
+.form-label, .form-input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 400px; 
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .nav-list {
+        text-align: center;
+        padding-top: 1em;
+    }
+
+    .nav-item {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+}
