@@ -24,3 +24,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Theme gem
 gem "minima", "2.5.1"
+
+gem "webrick"
