@@ -12,5 +12,6 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
     gem "jekyll-feed", "~> 0.12"
   end
 
-  gem "minima", "~> 2.5"
+gem "minima", "~> 2.5"
   
+gem "webrick"
