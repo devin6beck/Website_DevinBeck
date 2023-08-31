@@ -1,6 +1,7 @@
 
 /* Resetting some default styles */
 body, h1, h2, p, ul, li {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -13,13 +14,14 @@ body {
 }
 
 .site-header, .site-footer {
-  background-color: #3498db;
+  background-color: #FFA500;
   color: #f9f9f9;
   text-align: center;
   padding: 1.5em 0;
 }
 
 .nav-list {
+  margin: 20px 0;
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -36,7 +38,7 @@ body {
 }
 
 .nav-link:hover, .nav-link:focus {
-  background-color: #e74c3c;
+  background-color: #FF6347;
   color: #f9f9f9;
 }
 
@@ -71,7 +73,7 @@ body {
 }
 
 input[type="submit"] {
-  background-color: #e74c3c;
+  background-color: #FF6347;
   color: #f9f9f9;
   border: none;
   padding: 10px 20px;
@@ -81,13 +83,82 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #3498db;
+  background-color: #FFA500;
 }
 
 /* Responsive design adjustments */
 @media (max-width: 768px) {
   .nav-list {
+  margin: 20px 0;
       flex-direction: column;
       gap: 10px;
   }
+}
+
+/* Up and Down Arrow Styles */
+.arrow-btn {
+  position: fixed;
+  right: 20px;
+  background-color: rgba(255, 140, 0, 0.8); /* Semi-transparent orange */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 18px;
+  z-index: 1000; /* Ensure it's above other elements */
+  transition: background-color 0.3s;
+}
+
+.arrow-btn:hover {
+  background-color: rgba(255, 165, 0, 0.9); /* Slightly lighter orange on hover */
+}
+
+.arrow-up {
+  bottom: 60px; /* Positioning the up arrow 60px from the bottom */
+}
+
+.arrow-down {
+  bottom: 20px; /* Positioning the down arrow 20px from the bottom */
+}
+
+a {
+  background-color: #FFA500; /* Orange */
+  color: #2c3e50; /* Dark text color to contrast with orange */
+  padding: 3px 6px;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease;
+}
+
+a:hover, a:focus {
+  background-color: #FF8C00; /* Dark Orange */
+}
+
+
+/* Up and Down Arrow Styles */
+.arrow-btn {
+  position: fixed;
+  right: 20px;
+  background-color: rgba(255, 140, 0, 0.8); /* Semi-transparent orange */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 18px;
+  z-index: 1000; /* Ensure it's above other elements */
+  transition: background-color 0.3s;
+}
+
+.arrow-btn:hover {
+  background-color: rgba(255, 165, 0, 0.9); /* Slightly lighter orange on hover */
+}
+
+.arrow-up {
+  bottom: 60px; /* Positioning the up arrow 60px from the bottom */
+}
+
+.arrow-down {
+  bottom: 20px; /* Positioning the down arrow 20px from the bottom */
 }
