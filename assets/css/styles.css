@@ -162,3 +162,25 @@ a:hover, a:focus {
 .arrow-down {
   bottom: 20px; /* Positioning the down arrow 20px from the bottom */
 }
+
+
+/* Styles for the intro section, image, and its h1 */
+.intro-section {
+  position: relative;
+}
+
+.intro-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.intro-heading {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(253, 164, 63, 0.9); 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
