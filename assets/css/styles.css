@@ -125,7 +125,7 @@ input[type="submit"]:hover {
 a {
   background-color: #FFA500; /* Orange */
   color: #2c3e50; /* Dark text color to contrast with orange */
-  padding: 3px 6px;
+  padding: 2px 6px;
   border-radius: 5px;
   text-decoration: none; /* Remove underline */
   transition: background-color 0.3s ease;
