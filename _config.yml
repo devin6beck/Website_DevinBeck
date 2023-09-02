@@ -1,6 +1,12 @@
 title: Devin Beck's Website
 email: Devin6Beck@gmail.com
-description: >- 
+description: >-
   Devin Beck's personal website.
-baseurl: "/Website_DevinBeck"
+baseurl: ""
+url: "https://devinbeck.com"
 
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
