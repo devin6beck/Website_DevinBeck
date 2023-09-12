@@ -185,3 +185,16 @@ a:hover, a:focus {
   white-space: nowrap;
 }
 
+
+/* Styles for 404 page */
+.container-404 {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+}
+.container-404 h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+}
