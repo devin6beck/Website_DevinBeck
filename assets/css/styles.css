@@ -20,6 +20,11 @@ body {
   padding: 1.5em 0;
 }
 
+.spaced {
+  margin-bottom: 1.2rem;
+}
+
+
 .nav-list {
   margin: 20px 0;
   list-style-type: none;
